@@ -1,12 +1,11 @@
-meteor-jquery-autosize
+jquery-autosize
 ======================
 
-jQuery Autosize ("a plugin to automatically adjust textarea height") repackaged for Meteor.
+jQuery Autosize **updated for meteor 0.9.0** ("a plugin to automatically adjust textarea height") repackaged for Meteor.
 
 ## Installation
 
-1. `npm install -g meteorite` (if not already installed)
-1. `mrt add jquery-autosize`
+1. `meteor add copleykj:jquery-autosize`
 1. Call `$(selector).autosize()` in your `Template.templateName.rendered` callback, where `selector` is a jQuery selector.
 
 Example:
@@ -26,9 +25,4 @@ https://github.com/jackmoore/autosize/
 
 ## Author
 
-The Meteor repackage was created by Spendflow, a web app to help you budget the money you have.
-
-[Click to sign up for the private beta.](http://wiz1.us/spendflowbeta)
-
-Follow Spendflow on Twitter: [@spendflow](https://twitter.com/spendflow)
-Follow @wizonesolutions on Twitter: [@wizonesolutions](https://twitter.com/wizonesolutions)
+The Meteor repackage was created by Spendflow and updated by Kelly Copley (@copleykj) for the new 0.9.0 packaging system.
