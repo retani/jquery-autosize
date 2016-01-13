@@ -1,7 +1,8 @@
 Package.describe({
+  name: 'retani:jquery-autosize',
   summary: 'Automatically adjust textarea height based on user input.',
-  version: '1.17.8',
-  git: "https://github.com/copleykj/jquery-autosize.git"
+  version: '1.18.0',
+  git: "https://github.com/retani/jquery-autosize.git"
 });
 
 Package.on_use(function (api) {
